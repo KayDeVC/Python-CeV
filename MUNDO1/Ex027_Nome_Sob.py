@@ -1,0 +1,5 @@
+print('=====PRIMEIRO E ÚLTIMO=====')
+n = str(input('Digite o seu nome completo:'))
+nome = n.split()
+print('Seu primeiro nome = {}'.format(nome[0]))
+print('Seu último sobrenome = {}'.format(nome[len(nome)-1]))
